@@ -1,0 +1,16 @@
+{
+  "name": "travel-distribution-engine",
+  "version": "0.1.0",
+  "description": "Multi-provider flight offer aggregation, schema normalization, and cursor-paginated booking engine in TypeScript/Node.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
